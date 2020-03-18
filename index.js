@@ -6,7 +6,6 @@ function fetchBooks() {
   .then(function(json) {
     renderBooks(json);
   });
-  return fetch()
 }
 
 function renderBooks(json) {
@@ -16,6 +15,7 @@ function renderBooks(json) {
     h2.innerHTML = `<h2>${book.name}</h2>`
     main.appendChild(h2)
   })
+  return fetch()
 }
 
 document.addEventListener('DOMContentLoaded', function() {
