@@ -15,7 +15,7 @@ function renderBooks(json) {
     h2.innerHTML = `<h2>${book.name}</h2>`
     main.appendChild(h2)
   })
-  return fetch()
+  return fetchBooks()
 }
 
 document.addEventListener('DOMContentLoaded', function() {
