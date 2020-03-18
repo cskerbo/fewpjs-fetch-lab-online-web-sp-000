@@ -7,7 +7,7 @@ function fetchBooks() {
     renderBooks(json);
     return json
   });
-  
+
 }
 
 function renderBooks(json) {
