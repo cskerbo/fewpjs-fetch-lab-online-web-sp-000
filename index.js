@@ -5,9 +5,8 @@ function fetchBooks() {
   })
   .then(function(json) {
     renderBooks(json);
-    return json
   });
-
+return fetch
 }
 
 function renderBooks(json) {
